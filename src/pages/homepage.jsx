@@ -89,7 +89,7 @@ function HomePage() {
     
      <Parallax ref={parallaxRef} pages={19.6} >  
 
-         <ParallaxLayer offset={0} sticky={{start:0,end:18}} style={{justifyContent:"center",zIndex:"3",height:"5vh"}}> 
+         <ParallaxLayer offset={0} sticky={{start:0,end:19.6}} style={{justifyContent:"center",zIndex:"3",height:"5vh"}}> 
 
          {scrolled==false?<nav className={styles.navbarWhite}>
     
